@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="5" name="Failed suite [seleniumproject]">
+  <test name="seleniumtest(failed)">
+    <classes>
+      <class name="com.crm.qa.testcases.Dealtest">
+        <methods>
+          <include name="newdeal"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.Dealtest -->
+      <class name="com.crm.qa.testcases.LoginpageTest">
+        <methods>
+          <include name="logintitle"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.LoginpageTest -->
+      <class name="com.crm.qa.testcases.Homepagetest">
+        <methods>
+          <include name="dealstest"/>
+          <include name="verrifytitle"/>
+          <include name="contacttest"/>
+          <include name="taskttest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.Homepagetest -->
+    </classes>
+  </test> <!-- seleniumtest(failed) -->
+</suite> <!-- Failed suite [seleniumproject] -->

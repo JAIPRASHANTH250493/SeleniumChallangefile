@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="free crm and fd">
+<listeners>
+<listener class-name="com.crm.qa.utilities.Anotation">
+</listener>
+</listeners>
+
+	<test name="free crm and fd test">
+
+		<classes>
+
+			<class name="com.crm.qa.testcases.Fixed_deposit_Test"></class>
+		<!-- 	<class name="com.crm.qa.testcases.LoginpageTest"></class>
+			<class name="com.crm.qa.testcases.Homepagetest"></class> -->
+
+		</classes>
+
+	</test>
+
+
+</suite>
